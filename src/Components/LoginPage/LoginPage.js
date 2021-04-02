@@ -235,16 +235,18 @@ export default function SignIn(props) {
 
                   <Grid container>
                     <Grid item xs>
-                      <Button
-                        align="center"
-                        type="submit"
-                        fullWidth
-                        variant="contained"
-                        color="primary"
-                        className={classes.submit}
-                      >
-                        Sign In
-                      </Button>
+                      <Link to="/dashboard">
+                        <Button
+                          align="center"
+                          type="submit"
+                          fullWidth
+                          variant="contained"
+                          color="primary"
+                          className={classes.submit}
+                        >
+                          Sign In
+                        </Button>
+                      </Link>
                       <br />
                       {/* <div align="center">
                         Now to Product?
